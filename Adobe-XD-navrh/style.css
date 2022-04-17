@@ -1,0 +1,268 @@
+
+
+body{
+    background-color: #FAFAFA;
+     margin: 60px;
+}
+
+.box{
+    padding: 20px;
+    box-sizing: border-box;
+    border: 0.5 solid #8b8b8b;
+}
+
+.traveling{
+    display: flex;
+    flex:100%;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+h1{
+    color: black;
+    font-family:'Montserrat', sans-serif;
+    font-weight: bold;
+    background-size: 28px;
+    text-align: center;
+    margin-bottom: 10px;
+    align-self: center;
+    text-decoration: underline #407BFF 2px;
+}
+
+.paragraph{
+    font-size:16px;
+    color: #8b8b8b;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.button{
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+    padding: 11px  40px;
+    border-radius: 20px;
+    border:0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.adventure{
+    background-color: #407BFF;
+}
+
+.beach{
+    background-color: grey;
+}
+
+.box2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.box2 > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+h2{
+    font-size: 16px;
+    color:black;
+    text-align: center;
+    margin-top:70px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.paragraph{
+    color:#8b8b8b;
+    font-size:16px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.images{
+    display: flex;
+    background-color: #FAFAFA;
+    box-shadow:1px 1px 1px 1px #407bff1F ;
+    padding: 10px;
+    border-radius:10px;
+}
+
+.image-text{
+    padding: auto;
+    margin-top: 0;
+    color: #8b8b8b;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif; 
+}
+
+.section{
+    background-color: #FAFAFA;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px #407BFF1F;
+}
+
+
+.section1,
+.section2{
+    margin-bottom: 20px;
+}
+
+
+
+
+@media screen and (min-width:640px){
+    
+    .same{
+        display:flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+
+.section{
+    border-radius: 4px;
+    background-color: #ffffffff;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+.twin{
+    display: flex;
+    flex-direction: row;
+    margin:0 20px 20px 20px ;
+}
+
+.images{
+    margin-bottom: 20px;
+    display:flex;
+    margin-bottom:0;
+    flex-direction: column;
+    justify-content: center;
+}
+
+img{
+    margin-left: auto;
+    margin-right: auto;
+}
+.image-text{
+    margin:0px;
+    color:#8b8b8b;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.box2{
+    align-items: center;
+}
+
+.section1,
+.section2{
+    margin-bottom: 0;
+    margin-right: 20px;
+}
+
+.box2 > div{
+    flex-direction: row;
+}
+
+.adventure{
+    margin-right: 10px;
+}
+
+@media screen  and (min-width:1100px){
+    .box{
+        padding: 0px 80px 80px 80px;
+    }
+
+    .kontejner{
+        display:flex;
+    }
+
+    .traveling{
+        flex-basis: 50%;
+        justify-content: space-around;
+    }
+
+    h1{
+        text-align: left;
+        margin-top: 100px;
+    }
+
+    .paragraph{
+        text-align: left;
+    }
+
+    .button{
+        flex-direction: row-reverse;
+    }
+ 
+.twin,
+.same{
+    flex-basis: 50%;
+    justify-content: space-around; 
+}
+
+h2{
+    text-align: start;
+}
+
+.box2 {
+   flex-direction: row;
+   justify-content: flex-start;
+}
+
+.adventure{
+   margin-right:10px;
+}
+
+.kontejner-row-reverse{
+    flex-direction: row-reverse;
+}
+
+@media screen and (max-width:639px){
+
+ .traveling{
+        background-position: center;
+ }
+.image-text{
+         position: relative;
+         bottom: 10px;
+         left: 75px;
+         padding: 5px;
+ }
+.images{
+        position: relative;
+        top: 15px;
+        left:10px;
+}
+
+h2{
+    margin-top: 40px;
+   }
+
+.paragraph1,
+.parahraph3{
+    margin-bottom: 40px;
+}
+
+.section1,
+.section2,
+.section4,
+.section5{
+    margin-bottom:20px ;
+}
+
+.section div{
+    display: flex;
+    flex-direction: column;
+    margin: auto 20px;
+}
